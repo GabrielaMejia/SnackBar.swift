@@ -34,6 +34,7 @@ open class SnackBar: UIView, SnackBarAction, SnackBarPresentable {
 		messageLabel.numberOfLines = Int(style.maxNumberOfLines)
 		messageLabel.font = style.font
 		messageLabel.textColor = style.textColor
+		messageLabel.textAlignment = style.textAlignment
 		messageLabel.adjustsFontSizeToFitWidth = true
 		messageLabel.minimumScaleFactor = 0.8
 		return messageLabel
