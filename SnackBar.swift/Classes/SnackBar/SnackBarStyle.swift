@@ -15,6 +15,7 @@ public struct SnackBarStyle {
 	var inViewPadding = 20
 	// Label
 	public var textColor: UIColor = .black
+	public var textAlignment: NSTextAlignment = .left
     public var font: UIFont = UIFont.systemFont(ofSize: UIFontMetrics.default.scaledValue(for: 14))
 	var maxNumberOfLines: UInt = 2
 	// Action
